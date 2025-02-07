@@ -1,0 +1,13 @@
+:root {
+            --font-family: "Montserrat", sans-serif;
+            --second-family: "RobotoSlab", sans-serif;
+            --third-family: "DroidSerif", sans-serif;
+            --other-family: "Bilbo Swash Caps", sans-serif;
+            --header-text:rgba(254, 209, 54, 1);
+            --services-title:rgba(34, 34, 34, 1);
+            --servixes-description: rgba(119, 119, 119, 1);
+            --contact-title: rgba(255, 255, 255, 1);
+            --placeholder-color: rgba(187, 187, 187, 1);
+            --button-color:rgba(254, 209, 54, 1);
+            
+        }
