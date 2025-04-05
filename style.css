@@ -34,7 +34,7 @@ body {
     align-items: center;
 }
 
-.logo-link {
+.header-logo {
     font-family: var(--other-family);
     font-size: 36px;
     line-height: 41px;
