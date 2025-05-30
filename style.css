@@ -34,7 +34,7 @@ body {
     align-items: center;
 }
 
-.logo-link {
+.header-logo {
     font-family: var(--other-family);
     font-size: 36px;
     line-height: 41px;
@@ -83,6 +83,25 @@ body {
 .services-item {
     display: flex;
     flex-direction: column;
+}
+
+
+.svg-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 3px solid rgba(254, 209, 54, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17.45px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.svg-wrapper svg {
+    margin: 0 auto;
 }
 
 .services-subtitle {
