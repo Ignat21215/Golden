@@ -34,7 +34,7 @@ body {
     align-items: center;
 }
 
-.logo-link {
+.header-logo {
     font-family: var(--other-family);
     font-size: 36px;
     line-height: 41px;
@@ -101,8 +101,11 @@ body {
     color: var(--services-description);
 }
 
-.services-img {
-    margin: 0 auto;
+.services-span {
+    font-size: 38px;
+    border: 1px solid var(--header-text);
+    border-radius: 100%;
+    padding: 14px;
 }
 
 .contact-container {
