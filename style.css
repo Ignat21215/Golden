@@ -85,6 +85,16 @@ body {
     flex-direction: column;
 }
 
+.services-icon {
+    fill: var(--header-text);
+    padding: 13px;
+    border: 3px solid var(--header-text);
+    border-radius: 100%;
+    width: 70px;
+    height: 69px;
+    margin: 0 auto;
+}
+
 .services-subtitle {
     font-size: 18px;
     line-height: 75px;
