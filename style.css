@@ -24,8 +24,6 @@ body {
 
 .header {
     padding-top: 44px;
-    padding-right: 9px;
-    padding-left: 9px;
 }
 
 .header-container {
@@ -55,6 +53,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0;
+    padding: 10;
 }
 
 .services {
@@ -105,8 +104,6 @@ body {
 .services-description {
     font-size: 14px;
     font-weight: 400;
-    line-height: 100%;
-    letter-spacing: -0.35;
     font-family: var(--second-family);
     color: var(--services-description);
 }
@@ -120,8 +117,8 @@ body {
 
 .contact-container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    gap: 27px;
 }
 
 .contact {
@@ -143,15 +140,14 @@ body {
 
 .contact-form {
     display: flex;
-    gap: 28px;
-    align-items: center;
-    padding-bottom: 27px;
+    flex-direction: column;
+    gap: 27px;
 }
 
-.contact-form-list {
+.contact-wrapper {
     display: flex;
-    gap: 28px;
-    flex-direction: column;
+    gap: 27px;
+    align-items: center;
 }
 
 .contact-input {
@@ -200,4 +196,6 @@ input::placeholder {
     letter-spacing: 0px;
     padding: 18px 33px 28px 33px;
     border: 0;
+    cursor: pointer;
+    margin-top: 27px;
 }
