@@ -53,14 +53,12 @@ body {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0;
-    padding: 10;
+    padding: 10px;
 }
 
 .services {
     padding-top: 109px;
     padding-bottom: 119px;
-    padding-left: 4px;
-    padding-right: 4px;
 }
 
 .services-title {
@@ -134,14 +132,13 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    line-height: 100%;
     letter-spacing: -1px;
 }
 
 .contact-form {
     display: flex;
-    flex-direction: column;
     gap: 27px;
+    align-items: center;
 }
 
 .contact-wrapper {
@@ -150,12 +147,17 @@ body {
     align-items: center;
 }
 
+.contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
 .contact-input {
     color: var(--placeholder-color);
     padding: 12px 310px 21px 20px;
     font-size: 14px;
     font-weight: 700;
-    line-height: 100%;
     letter-spacing: -0.35px;
     border: 1px solid;
     border-radius: 3px;
@@ -167,7 +169,6 @@ input::placeholder {
     color: var(--placeholder-color);
     font-size: 14px;
     font-weight: 700;
-    line-height: 100%;
     letter-spacing: -0.35px;
 }
 
