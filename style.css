@@ -155,7 +155,8 @@ body {
 
 .contact-input {
     color: var(--placeholder-color);
-    padding: 12px 310px 21px 20px;
+    width: 455px;
+    padding: 12px 20px 21px 20px;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: -0.35px;
@@ -181,7 +182,10 @@ input::placeholder {
 }
 
 .contact-textarea {
-    padding: 14px 286px 181px 22px;
+    padding-top: 14px;
+    padding-left: 22px;
+    width: 458px;
+    height: 212px;
     border: 1px solid;
     border-color: var(--placeholder-color);
     border-radius: 2px;
