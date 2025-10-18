@@ -160,6 +160,7 @@ body {
     border-radius: 3px;
     border-color: var(--placeholder-color);
     font-weight: inherit;
+    line-height: 1;
 }
 
 input::placeholder {
