@@ -102,6 +102,7 @@ body {
     font-weight: 400;
     font-family: var(--second-family);
     color: var(--services-description);
+    letter-spacing: -0.35px;
 }
 
 .services-span {
@@ -109,12 +110,6 @@ body {
     border: 1px solid var(--header-text);
     border-radius: 100%;
     padding: 14px;
-}
-
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    gap: 27px;
 }
 
 .contact {
@@ -125,7 +120,6 @@ body {
 
 .contact-title {
     color: var(--contact-title);
-    padding-top: 92px;
     padding-bottom: 114px;
     text-align: center;
     font-size: 40px;
@@ -141,7 +135,7 @@ body {
 .contact-wrapper {
     display: flex;
     gap: 27px;
-    align-items: center;
+    flex-direction: column;
 }
 
 .contact-form-wrapper {
@@ -165,7 +159,6 @@ body {
 
 input::placeholder {
     color: var(--placeholder-color);
-    color: var(--placeholder-color);
     font-size: inherit;
     letter-spacing: -0.35px;
 }
@@ -174,7 +167,6 @@ input::placeholder {
     font-size: inherit;
     color: var(--placeholder-color);
     letter-spacing: -0.35px;
-    white-space: nowrap;
 }
 
 .contact-textarea {
@@ -187,6 +179,8 @@ input::placeholder {
     border-radius: 2px;
     resize: none;
     font-weight: inherit;
+    font-size: 14px;
+    font-family: inherit;
 }
 
 .send-button {
@@ -195,10 +189,9 @@ input::placeholder {
     color: var(--contact-title);
     font-size: 18px;
     letter-spacing: 0px;
-    padding: 18px 33px 28px 33px;
+    padding: 18px 46px 28px 46px;
     border: 0;
     cursor: pointer;
-    margin-top: 27px;
     font-family: inherit;
     font-weight: inherit;
 }
